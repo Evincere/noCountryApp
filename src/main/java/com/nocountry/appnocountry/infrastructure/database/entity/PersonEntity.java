@@ -45,7 +45,6 @@ public class PersonEntity {
   @Column(name = "PHONE_NUMBER")
   private String phoneNumber;
 
-  @Temporal(TemporalType.DATE)
   private LocalDate dateBirth;
 
   @Column(name = "CREATE_TIMESTAMP", updatable = false)
